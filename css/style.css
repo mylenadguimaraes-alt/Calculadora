@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+    font-family: Arial;
+    font-size: large;
+    line-height: 20px;
+}
+
+body{
+        
+    min-height: 100vh;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color: #101942;
+
+   
+}
+
+fieldset{
+    margin: 10px;
+    padding: 15px 20px;
+
+    background-color: #80043a;
+
+    border: 4px double #f09580;
+    border-radius: 10px;
+    
+}
+
+fieldset legend{
+    font-size: xx-large;
+    padding: 15px 10px;
+
+    background-color: #80043a;
+    
+    border: 2px solid #f09580;
+    border-radius: 10px;
+
+    font-weight: bold;
+    color: #f09580;
+
+}
+
+.numeros{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 30px 0px;
+}
+
+.campos{
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.campos label{
+    color: #f09580;
+
+    font-weight: bold;
+
+    font-size: medium;
+}
+
+.campos input{
+    width: 150px;
+
+    padding: 10px;
+
+    border: 2px solid #f09580;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    background-color: #80043a;
+    color: #f09580;
+}
+
+.botoes{
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.botoes input{
+    padding: 10px 15px;
+
+    background-color: #f09580;
+
+    color: #80043a;
+
+    border: 2px solid #f09580;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.botoes input:hover{
+    background-color: #101942;
+
+    color: #f09580;
+}
+
+.resultado{
+    margin-top: 25px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    background-color: #101942;
+
+    border-radius: 8px;
+
+    color: #f09580;
+}
+
+.resultado p{
+    font-weight: bold;
+}
+
+#resultado{
+    color: white;
+}
+
+
+
+
+
+
+
