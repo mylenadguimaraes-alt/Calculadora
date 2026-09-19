@@ -17,11 +17,24 @@
 
 <body>
 
+    <section class="introducao">
+
+        <h1>Calculadora</h1>
+
+        <p>
+            Utilize a calculadora abaixo para realizar operações matemáticas
+            de forma simples e rápida. Informe dois números e escolha uma das
+            operações disponíveis: soma, subtração, multiplicação ou divisão.
+            O resultado será apresentado automaticamente após selecionar a operação.
+        </p>
+
+    </section>
+
     <form>
 
         <fieldset>
 
-            <legend>Calculadora</legend>
+            
 
             <div class="numeros">
 
@@ -45,13 +58,19 @@
 
             <div class="botoes">
 
-                <input type="button" value="Soma" id="soma">
+                <input type="button" value="Soma" id="soma" onclick="fSoma()">
 
-                <input type="button" value="Subtração" id="subtracao">
+                <input type="button" value="Subtração" id="subtracao" onclick="fSubtracao()">
 
-                <input type="button" value="Multiplicação" id="multiplicacao">
+                <input type="button" value="Multiplicação" id="multiplicacao" onclick="fMultiplicacao()">
 
-                <input type="button" value="Divisão" id="divisao">
+                <input type="button" value="Divisão" id="divisao" onclick="fDivisao()">
+
+            </div>
+
+            <div class="limpar">
+
+                <input type="button" value="Limpar" id="limpar" onclick="fLimpar()">
 
             </div>
 
